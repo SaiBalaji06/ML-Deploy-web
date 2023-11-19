@@ -1,0 +1,31 @@
+0 The leaf type is Apple and it is in Healthy condition.
+1 The leaf type is Apple and it is effected by scab Disease.
+2 The leaf type is Cherry and it is in healthy condition.
+3 The leaf type is Cherry and it is effected by Powdery mildew Disease.
+4 The leaf type is Chili and it is in Healthy condition.
+5 The leaf type is Chili and it is effected by leaf spot Disease.
+6 The leaf type is Chili and it is effected by whitefly Disease.
+7 The leaf type is coffee and it is in Healthy condition.
+8 The leaf type is Coffee and it is effected by red spider mite Disease.
+9 The leaf type is Corn and it is effected by Gray leaf spot Disease.
+10 The leaf type is Corn and it is in Healthy condition.
+11 The leaf type is Cucumber and it is effected by leaf blight Disease.
+12 The leaf type is Cucumber and it is in Healthy condition.
+13 The leaf type is Guava and it is effected by Algal spots Disease.
+14 The leaf type is Guava and it is in Healthy condition.
+15 The leaf type is Mango and it is effected by Phoma blight Disease.
+16 The leaf type is Mango and it is in Healthy condition.
+17 The leaf type is Potato and it is effected by Early blight-Disease.
+18 The leaf type is Potato and it is in Healthy condition.
+19 The leaf type is Rice and it is effected by Brown Spot Disease.
+20 The leaf type is Rice and it is in Healthy condition.
+21 The leaf type is Suger Cane and it is in Healthy condition.
+22 The leaf type is Suger Cane and it is effected by SugerCane Rust Disease.
+23 The leaf type is Tea and it is effected by algal Disease.
+24 The leaf type is Tea and it is effected by Brown Blight Disease.
+25 The leaf type is Tea and it is in Healthy condition.
+26 The leaf type is Tomato and it is effected by Bacterial Spot Disease.
+27 The leaf type is Tomato and it is effected by Early Blight Disease.
+28 The leaf type is Tomato and it is in Healthy condition.
+29 The leaf type is Tomato and it is effected by Late Blight Disease.
+30 The leaf type is Tomato and it is effected by Leaf Mold Disease.

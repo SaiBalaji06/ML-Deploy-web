@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Capture</title>
+    <style>
+        #video {
+            width: 100%;
+            max-width: 640px;
+        }
+        #canvas {
+            display: none;
+        }
+        #captureButton {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <video id="video" autoplay></video>
+    <canvas id="canvas"></canvas>
+    <button id="captureButton">Capture Image</button>
+
+<script>
+        // Get references to HTML elements
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const captureButton = document.getElementById('captureButton');
+
+// Check if the user's browser supports the getUserMedia API
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+        // Assign the camera stream to the video element
+        video.srcObject = stream;
+    })
+    .catch(function (error) {
+        console.error('Error accessing the camera:', error);
+    });
+} else {
+    console.error('getUserMedia is not supported in this browser.');
+}
+
+captureButton.addEventListener('click', function () {
+        // Draw the current video frame onto the canvas
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Convert the canvas content to a data URL (base64 encoded image)
+        const imageDataURL = canvas.toDataURL('image/png');
+
+        // You can now use `imageDataURL` as your captured image
+        console.log('Captured Image Data URL:', imageDataURL);
+
+        // Send the captured image URL to your server
+        sendImageToServer(imageDataURL);
+    });
+
+    // Function to send the image URL to the server
+    function sendImageToServer(imageDataURL) {
+        fetch('/camera', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ imageDataURL }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Handle the response from the server as needed
+            console.log('Server Response:', data);
+        })
+        .catch(error => {
+            console.error('Error sending image to server:', error);
+        });
+    }
+
+</script>
+</body>
+</html>

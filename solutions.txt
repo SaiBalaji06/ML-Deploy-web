@@ -1,0 +1,31 @@
+0  For Apple leaves in a healthy condition, continue regular care and maintenance, such as proper watering and fertilization.
+1  For Apple leaves affected by scab disease, consider applying fungicides specifically designed to combat scab disease. Prune and remove affected leaves to prevent further spread.
+2  For Cherry leaves in healthy condition, maintain good care practices, including proper watering and pruning as needed.
+3  For Cherry leaves affected by powdery mildew disease, apply a fungicide effective against powdery mildew. Prune and remove affected leaves to reduce the disease's spread.
+4  For Chili leaves in healthy condition, continue proper care and ensure they receive adequate sunlight and nutrients.
+5  For Chili leaves affected by leaf spot disease, consider applying a suitable fungicide. Prune and remove affected leaves to prevent further infection.
+6  For Chili leaves affected by whitefly disease, consider using insecticidal treatments to control whiteflies. Regularly monitor and manage whitefly populations.
+7  For Coffee leaves in healthy condition, maintain regular coffee plant care, including proper watering and fertilization.
+8  For Coffee leaves affected by red spider mite disease, consider using appropriate miticides. Ensure a suitable environment to deter mite infestations.
+9  For Corn leaves affected by gray leaf spot disease, use fungicides effective against this disease. Practice crop rotation to reduce disease recurrence.
+10 For Corn leaves in healthy condition, continue regular corn plant care, including adequate watering and soil nutrition.
+11 For Cucumber leaves affected by leaf blight disease, apply a fungicide to control the disease. Remove and destroy infected plant material.
+12 For Cucumber leaves in healthy condition, maintain proper cucumber care, including consistent watering and support for vine growth.
+13 For Guava leaves affected by algal spots disease, consider applying appropriate fungicides. Remove and dispose of infected leaves.
+14 For Guava leaves in healthy condition, maintain regular care practices, including proper watering and pruning.
+15 For Mango leaves affected by Phoma blight disease, apply fungicides specifically designed to combat Phoma blight. Prune and remove affected leaves.
+16 For Mango leaves in healthy condition, continue good care practices, such as proper watering and fertilization.
+17 For Potato leaves affected by early blight disease, use fungicides effective against early blight. Remove and destroy infected plant material.
+18 For Potato leaves in healthy condition, maintain proper potato care, including hilling and adequate spacing.
+19 For Rice leaves affected by brown spot disease, use appropriate fungicides. Practice good water management to minimize disease spread.
+20 For Rice leaves in healthy condition, continue standard rice crop care practices.
+21 For Sugarcane leaves in healthy condition, maintain regular care, including proper irrigation and fertilization.
+22 For Sugarcane leaves affected by sugarcane rust disease, use fungicides effective against rust. Remove and destroy infected leaves.
+23 For Tea leaves affected by algal disease, consider improving drainage and reducing moisture levels to combat the disease.
+24 For Tea leaves affected by brown blight disease, apply suitable fungicides. Prune and remove affected leaves.
+25 For Tea leaves in healthy condition, maintain regular tea plant care practices, including proper pruning and harvesting.
+26 For Tomato leaves affected by bacterial spot disease, use copper-based fungicides. Remove and destroy infected plant material.
+27 For Tomato leaves affected by early blight disease, use fungicides effective against early blight. Practice good crop rotation.
+28 For Tomato leaves in healthy condition, continue standard tomato plant care, including proper staking and support.
+29 For Tomato leaves affected by late blight disease, apply appropriate fungicides. Remove and destroy infected plant material.
+30 For Tomato leaves affected by leaf mold disease, maintain good air circulation, and consider using fungicides specifically designed to combat leaf mold.Remove and destroy affected leaves.
